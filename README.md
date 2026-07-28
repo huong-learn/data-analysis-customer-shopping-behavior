@@ -24,7 +24,7 @@ Files are numbered to reflect the order of the workflow.
 
 | File | Description |
 |------|-------------|
-| `0. README.md` | This file — project overview and run instructions |
+| `README.md` | This file — project overview and run instructions |
 | `1. Business Problem  Document.pdf` | Business context: the questions the analysis needs to answer and why they matter |
 | `2. raw_customer_shopping_behavior.csv` | Source dataset — 3,900 rows, 18 columns (age, gender, item, category, purchase amount, location, size, color, season, review rating, subscription, shipping, discounts, payment method, purchase frequency, etc.) |
 | `3. customer_shopping_behavior.ipynb` | Python/pandas notebook: cleaning, feature engineering, and automated push to MySQL |
