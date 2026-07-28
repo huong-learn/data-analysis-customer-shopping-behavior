@@ -1,3 +1,11 @@
+-- =============================================================================
+-- 5. customer_shopping_behavior_analysis.sql
+-- Input : table `cleaned_customer_shopping_behavior`, loaded from
+--         "4. cleaned_customer_shopping_behavior.csv" (see
+--         "3. customer_shopping_behavior.ipynb")
+-- Output: answers to the 10 business questions below
+-- =============================================================================
+
 -- DROP 2 columns such as age_group_2 and age_group_3 using ALTER TABLE table_name DROP COLUMN column_name, so the new csv file won't have them like original file.
 -- Check data
 SELECT * FROM cleaned_customer_shopping_behavior LIMIT 5;
